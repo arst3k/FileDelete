@@ -1,0 +1,14 @@
+[project]
+name = "filedelete"
+version = "0.1.0"
+description = "Secure CLI tool for deleting files with configurable filters and safety protections"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+filedelete = "filedelete.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
